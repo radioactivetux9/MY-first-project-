@@ -1,0 +1,48 @@
+body {
+  background-image: url("https://www.tokkoro.com/picsup/5006214-destiny-2-destiny-games-hd-4k.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+   min-height: 360px;
+
+}
+
+/************************************Home Page Styling*/
+.title {
+  color: white;
+  text-align: center;
+  top: 150px;
+  left: 565px;
+  
+}
+.list-inline-item:not(:last-child) {
+    margin: 0;
+}
+
+
+.btn-danger {
+  color: White;
+  font-size: 19px
+  transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+
+}
+
+
+a:link {
+  color: white;
+
+
+
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: black;
+}
+
+
