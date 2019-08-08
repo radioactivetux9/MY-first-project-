@@ -2,10 +2,6 @@
 
 
 
-* {
-  margin: 0;
-  padding: 0;
-}
 
 /************************************Back Ground Control*/
 
@@ -36,6 +32,23 @@ body{
 
 
 
+/************************************Home Page buttons*/
+
+a:link {
+  color: white;
+
+
+
+}
+
+a:visited {
+  color: lightblue;
+}
+
+a:hover {
+  color: black;
+}
+
 
 
 /************************************Home Page Styling*/
@@ -55,6 +68,7 @@ body{
   width: 100%;
   padding: 0;
   margin: 0;
+  font-size: 30px;
 
 }
 
@@ -67,23 +81,6 @@ body{
   -moz-transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
 
-}
-
-/************************************Home Page buttons*/
-
-a:link {
-  color: white;
-
-
-
-}
-
-a:visited {
-  color: lightblue;
-}
-
-a:hover {
-  color: black;
 }
 
 

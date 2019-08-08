@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+body{
+  background-color: black;
+}
+
+/************************************Back Ground Control/the same on all pages*/
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+}
+
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+    dispLAY: NONE;
+  }
+}
+
+
+.jump-two{
+  font-family: "Exo", sans-serif;
+  color: white;
+  text-decoration: none;
+}
+
+.subclasses,.title{
+   font-family: "Exo", sans-serif;
+  color: white;
+  
+   
+}
+
+
+.navbar {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+
+}
+
+
+
+.sub{
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+
+}
+
+
+/*********************** warlock*/
+
+#warlock {
+  font-size: 25px;
+
+  margin: 10px;
+  position: relative;
+  bottom: 150px
+}
+.details{
+  color: white;
+}
+.warlock-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+}
+.fas,.fab{
+  color: #e67e22;
+}
+
+.title{
+  text-align: center;
+  font-family: "Exo", sans-serif;
+   
+
+}
+
+
