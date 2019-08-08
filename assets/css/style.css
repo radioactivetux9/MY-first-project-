@@ -1,34 +1,75 @@
-body {
-  background-image: url("https://www.tokkoro.com/picsup/5006214-destiny-2-destiny-games-hd-4k.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
-   min-height: 360px;
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/************************************Back Ground Control*/
+
+img.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
 
 }
 
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+    dispLAY: NONE;
+  }
+}
+
+body{
+  background-image: url("https://hdqwalls.com/download/destiny-2-warmind-83-480x800.jpg")
+  
+}
+
+
+
+
+
 /************************************Home Page Styling*/
+
 .title {
   color: white;
   text-align: center;
-  top: 150px;
-  left: 565px;
-  
-}
-.list-inline-item:not(:last-child) {
-    margin: 0;
+  font-family: "Exo", sans-serif;
+  padding-top: 15px;
+
+
 }
 
+
+
+.navbar {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
 
 .btn-danger {
   color: White;
-  font-size: 19px
+  font-size: 19px;
+  margin: 5px;
+
   transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
 
 }
 
+/************************************Home Page buttons*/
 
 a:link {
   color: white;
@@ -46,3 +87,29 @@ a:hover {
 }
 
 
+
+
+/************************************Media Qs*/
+
+@media (min-width: 1281px) {
+
+  .title {
+    color: white;
+    text-align: center;
+    top: 150px;
+    left: 565px;
+
+  }
+}
+
+@media (min-width: 1281px) {
+  .home-links {
+    color: White;
+    font-size: 19px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+
+
+  }
+}
