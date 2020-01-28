@@ -183,12 +183,16 @@
 @media screen and (min-width: 1024px) {
   .title {
     font-family: "Exo", sans-serif;
-    color: black;
+    color: white;
     text-decoration: none;
     Font-size: 29px;
     text-align: center;
     margin-top: 20px;
     margin-bottom: 50px;
+background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 20px;
+    letter-spacing: 7px;
+    
 
   }
 }
