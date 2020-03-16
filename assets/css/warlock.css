@@ -13,7 +13,7 @@
 }
 
 
-
+/*********************** background */
 .bg {
   min-height: 100%;
   min-width: 1024px;
@@ -27,7 +27,7 @@
 }
 
 
-
+/*********************** subclass title */
 .subclasses {
   font-family: "Exo", sans-serif;
   color: black;
@@ -35,8 +35,30 @@
 }
 
 
+.sub {
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+
+}
 
 
+@media screen and (min-width: 1024px) {
+  .subclasses {
+    font-family: "Exo", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+    border: solid black 5px;
+    border-radius: 20px;
+    font-weight: 700;
+   
+  }
+}
+
+
+
+/*********************** navbar */
 .navbar {
   width: 100%;
   padding: 0;
@@ -46,13 +68,6 @@
 }
 
 
-
-.sub {
-  font-size: 25px;
-  text-align: center;
-  margin: 15px;
-
-}
 
 
 /*********************** warlock*/
@@ -64,20 +79,18 @@ color: black;
   position: relative;
   bottom: 150px
 }
-#hunter {
-  font-size: 20px;
+@media screen and (min-width: 1024px) {
+  #warlock {
+color: white;
+    font-size: 50px;
+    top: 5px;
+    left: 155px;
 
-  margin: 10px;
-  position: relative;
-  bottom: 150px
-}
-#titan {
-  font-size: 20px;
 
-  margin: 10px;
-  position: relative;
-  bottom: 150px
+  }
 }
+
+/*********************** main text */
 
 .details {
   color: white;
@@ -88,8 +101,23 @@ color: black;
     font-family: "Exo", sans-serif;
     letter-spacing: 3px;
 }
+@media screen and (min-width: 1024px) {
+  .details {
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    border: solid black 5px;
+    border-radius: 50px;
+    font-weight: 600;
+      letter-spacing: 2px;
+
+  }
+}
 
 
+/*********************** img control of subclass img */
 
 .warlock-img {
   width: 100%;
@@ -100,6 +128,20 @@ color: black;
 
 }
 
+@media screen and (min-width: 1024px) {
+  .warlock-img {
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-right: 12px;
+    padding-top: 12px;
+
+  }
+}
+
+
+
+/*********************** bullet point control from fontawsome*/
 .fas,
 .fab {
   color: #A569BD;
@@ -112,7 +154,7 @@ color: black;
     letter-spacing: 3px;
 }
 
-
+/*********************** what is the warlock class */
 
 .warlock-abt {
   padding: 0;
@@ -120,6 +162,19 @@ color: black;
 
 }
 
+@media screen and (min-width: 1024px) {
+  .warlock-abt {
+    ;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+/*********************** main subclasses titles eg (void walker) */
 @media screen and (min-width: 1024px) {
   .sub1 {
     font-family: "Exo", sans-serif;
@@ -146,20 +201,7 @@ color: black;
   }
 }
 
-@media screen and (min-width: 1024px) {
-  .details {
-    color: white;
-    margin: 30px;
-    font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 0;
-    border: solid black 5px;
-    border-radius: 50px;
-    font-weight: 600;
-      letter-spacing: 2px;
-
-  }
-}
+/*********************** general text control */
 
 @media screen and (min-width: 1024px) {
   h5 {
@@ -177,103 +219,6 @@ color: black;
 }
 
 
-
-
-
-@media screen and (min-width: 1024px) {
-  .title {
-    font-family: "Exo", sans-serif;
-    color: white;
-    text-decoration: none;
-    Font-size: 29px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
-    letter-spacing: 7px;
-    
-
-  }
-}
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .warlock-img {
-    width: 50%;
-    height: auto;
-    float: right;
-    padding-right: 12px;
-    padding-top: 12px;
-
-  }
-}
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .warlock-abt {
-    ;
-    font-size: 25px;
-    text-align: center;
-    position: relative;
-    float: left;
-    top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #warlock {
-
-    font-size: 50px;
-    top: 5px;
-    left: 155px;
-
-
-  }
-}
-
-
-@media screen and (min-width: 1024px) {
-  #hunter {
-
-    font-size: 50px;
-    top: 5px;
-    left: 240px;
-
-
-  }
-}
-
-
-@media screen and (min-width: 1024px) {
-  #titan {
-
-    font-size: 50px;
-    top: 5px;
-    left: 255px;
-
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
 @media screen and (min-width: 1024px) {
   .toons {
     padding: 0;
@@ -282,25 +227,7 @@ background-color: rgba(0, 0, 0, 0.4);
 
 
 
-@media screen and (min-width: 1024px) {
-  .subclasses {
-    font-family: "Exo", sans-serif;
-    color: black;
-    text-decoration: none;
-    font-size: 70px;
-    border: solid black 5px;
-    border-radius: 20px;
-    font-weight: 700;
-   
-  }
-}
 
 
 
-@media screen and (min-width: 1024px){
-.jumpto {
-  color: orange;
-  font-size: 500px;
-  text-align: center;
-}
-}
+
