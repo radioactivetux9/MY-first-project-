@@ -2,19 +2,10 @@
 
 
 
-  body {
-    background-image: url("https://i.pinimg.com/originals/6a/eb/51/6aeb513d3775fc080d8d213ab893f4cf.png")
-  }
 
-@media screen and (min-width: 1024px) {
-  body {
-   background-image: url("https://www.bungie.net/pubassets/98235/05_Preview.jpg?cv=3983621215&av=3383129829")
-  }
-}
+/************************************Back Ground Control*/
 
-
-
-.bg {
+img.bg {
   min-height: 100%;
   min-width: 1024px;
   width: 100%;
@@ -26,14 +17,67 @@
 
 }
 
-
-
-.subclasses {
-  font-family: "Exo", sans-serif;
-  color: black;
-  text-decoration: none;
+@media screen and (max-width: 1024px) {
+  img.bg {
+    left: 50%;
+    margin-left: -512px;
+    dispLAY: NONE;
+  }
 }
 
+body{
+  background-image: url("https://i.pinimg.com/originals/6a/eb/51/6aeb513d3775fc080d8d213ab893f4cf.png")
+  
+}
+
+.title {
+  color: black;
+  text-align: center;
+  font-family: "Exo", sans-serif;
+  padding-top: 15px;
+
+
+}
+@media (min-width: 1281px) {
+
+  .title {
+    color: black;
+    text-align: center;
+    top: 130px;
+    left: 100px;
+    font-size: 19px;
+    font-family: "Exo", sans-serif;
+    margin-left: 5px;
+
+transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -webkit-transition: all 1.5s ease-in-out;
+
+  }
+}
+.btn-danger {
+  color: White;
+  font-size: 19px;
+  margin: 5px;
+
+  transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -webkit-transition: all .5s ease-in-out;
+
+}
+
+
+@media (min-width: 1281px) {
+  .home-links {
+    color: White;
+    font-size: 19px;
+    transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -webkit-transition: all 0.5s ease-in-out;
+
+
+  }
+}
 
 
 
@@ -42,255 +86,8 @@
   padding: 0;
   margin: 0;
   font-size: 30px;
+  margin-bottom: 10px; 
 
 }
 
 
-
-.sub {
-  font-size: 25px;
-  text-align: center;
-  margin: 15px;
-
-}
-
-
-/*********************** warlock*/
-
-#warlock {
-  font-size: 20px;
-
-  margin: 10px;
-  position: relative;
-  bottom: 150px
-}
-#hunter {
-  font-size: 20px;
-
-  margin: 10px;
-  position: relative;
-  bottom: 150px
-}
-#titan {
-  font-size: 20px;
-
-  margin: 10px;
-  position: relative;
-  bottom: 150px
-}
-
-.details {
-  color: black;
-  padding: 0;
-  margin: 0;
-   border: solid black 2px;
-   font-weight: bold;
-    font-family: "Exo", sans-serif;
-    letter-spacing: 3px;
-}
-
-
-
-.warlock-img {
-  width: 100%;
-  height: auto;
-  position: relative;
-  margin: 0;
-  padding: 0;
-
-}
-
-.fas,
-.fab {
-  color: #A569BD;
-}
-
-.title {
-  text-align: center;
-  color: black;
-  font-family: "Exo", sans-serif;
-    letter-spacing: 3px;
-}
-
-
-
-.warlock-abt {
-  padding: 0;
-  margin: 0;
-
-}
-
-@media screen and (min-width: 1024px) {
-  .sub1 {
-    font-family: "Exo", sans-serif;
-    color: white;
-    font-size: 60px;
-    font-weight: 700;
-    background-color: rgba(0, 0, 0, 0.8);
-    border-radius: 10px;
-    letter-spacing: 7px;
-    text-align: center;
-    
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .sub-ability {
-    font-family: "Exo", sans-serif;
-    color: black;
-    font-size: 60px;
-    font-weight: 700;
-    text-decoration: underline;
-  
-  
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  .details {
-    color: #1a1a1a;
-    margin: 30px;
-    font-size: 30px;
-    background-color: rgba(255, 255, 255, 0.7);
-    padding: 0;
-    border: solid black 5px;
-    border-radius: 50px;
-    font-weight: 600;
-      letter-spacing: 2px;
-
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  h5 {
-    font-size: 39px;
-  }
-}
-
-
-@media screen and (min-width: 1024px) {
-  h3 {
-    color: #D35400;
-    font-size: 40px;
-    text-decoration: underline;
-  }
-}
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .title {
-    font-family: "Exo", sans-serif;
-    color: white;
-    text-decoration: none;
-    Font-size: 29px;
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 50px;
-background-color: rgba(0, 0, 0, 0.4);
-    border-radius: 20px;
-    letter-spacing: 7px;
-    
-
-  }
-}
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .warlock-img {
-    width: 50%;
-    height: auto;
-    float: right;
-    padding-right: 12px;
-    padding-top: 12px;
-
-  }
-}
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .warlock-abt {
-    ;
-    font-size: 25px;
-    text-align: center;
-    position: relative;
-    float: left;
-    top: 10px;
-    padding-bottom: 10px;
-  }
-}
-
-@media screen and (min-width: 1024px) {
-  #warlock {
-
-    font-size: 50px;
-    top: 5px;
-    left: 155px;
-
-
-  }
-}
-
-
-@media screen and (min-width: 1024px) {
-  #hunter {
-
-    font-size: 50px;
-    top: 5px;
-    left: 240px;
-
-
-  }
-}
-
-
-@media screen and (min-width: 1024px) {
-  #titan {
-
-    font-size: 50px;
-    top: 5px;
-    left: 255px;
-
-
-  }
-}
-
-
-
-
-
-
-
-
-
-
-@media screen and (min-width: 1024px) {
-  .toons {
-    padding: 0;
-  }
-}
-
-
-
-@media screen and (min-width: 1024px) {
-  .subclasses {
-    font-family: "Exo", sans-serif;
-    color: black;
-    text-decoration: none;
-    font-size: 70px;
-    border: solid black 5px;
-    border-radius: 20px;
-    font-weight: 700;
-   
-  }
-}
