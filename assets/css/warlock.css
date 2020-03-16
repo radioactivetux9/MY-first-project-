@@ -58,8 +58,8 @@
 /*********************** warlock*/
 
 #warlock {
-  font-size: 20px;
-
+  font-size: 15px;
+color: black;
   margin: 10px;
   position: relative;
   bottom: 150px
@@ -80,7 +80,7 @@
 }
 
 .details {
-  color: black;
+  color: white;
   padding: 0;
   margin: 0;
    border: solid black 2px;
@@ -107,7 +107,7 @@
 
 .title {
   text-align: center;
-  color: black;
+  color: white;
   font-family: "Exo", sans-serif;
     letter-spacing: 3px;
 }

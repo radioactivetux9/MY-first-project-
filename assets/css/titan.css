@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css?family=Exo&display=swap');
+
+
+
+  body {
+    background-image: url("https://i.pinimg.com/originals/6a/eb/51/6aeb513d3775fc080d8d213ab893f4cf.png")
+  }
+
+@media screen and (min-width: 1024px) {
+  body {
+   background-image: url("https://www.bungie.net/pubassets/98235/05_Preview.jpg?cv=3983621215&av=3383129829")
+  }
+}
+
+/*********************** background control*/
+
+.bg {
+  min-height: 100%;
+  min-width: 1024px;
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+
+
+}
+
+/*********************** subclass title */
+
+.subclasses {
+  font-family: "Exo", sans-serif;
+  color: black;
+  text-decoration: none;
+}
+
+.sub {
+  font-size: 25px;
+  text-align: center;
+  margin: 15px;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .subclasses {
+    font-family: "Exo", sans-serif;
+    color: black;
+    text-decoration: none;
+    font-size: 70px;
+    border: solid black 5px;
+    border-radius: 20px;
+    font-weight: 700;
+   
+  }
+}
+
+/*********************** navbar */
+
+.navbar {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  font-size: 30px;
+
+}
+
+
+/*********************** titan main title st top of page saying titan*/
+
+
+#titan {
+  font-size: 20px;
+color: black;
+  margin: 10px;
+  position: relative;
+  bottom: 150px
+}
+@media screen and (min-width: 1024px) {
+  #titan {
+color: white;
+    font-size: 50px;
+    top: 5px;
+    left: 255px;
+
+
+  }
+}
+
+
+
+/*********************** main text */
+
+
+.details {
+  color: white;
+  padding: 0;
+  margin: 0;
+   border: solid black 2px;
+   font-weight: bold;
+    font-family: "Exo", sans-serif;
+    letter-spacing: 3px;
+}
+@media screen and (min-width: 1024px) {
+  .details {
+    color: white;
+    margin: 30px;
+    font-size: 30px;
+    background-color: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    border: solid black 5px;
+    border-radius: 50px;
+    font-weight: 600;
+      letter-spacing: 2px;
+
+  }
+}
+
+/*********************** img control of subclass img */
+
+.titan-img {
+  width: 100%;
+  height: auto;
+  position: relative;
+  margin: 0;
+  padding: 0;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .titan-img {
+    width: 50%;
+    height: auto;
+    float: right;
+    padding-right: 12px;
+    padding-top: 12px;
+
+  }
+}
+
+/*********************** bullet point control from fontawsome*/
+.fas,
+.fab {
+  color: #A569BD;
+}
+
+/*********************** what is the titan class */
+
+.titan-abt {
+  padding: 0;
+  margin: 0;
+
+}
+
+@media screen and (min-width: 1024px) {
+  .titan-abt {
+    ;
+    font-size: 25px;
+    text-align: center;
+    position: relative;
+    float: left;
+    top: 10px;
+    padding-bottom: 10px;
+  }
+}
+
+
+
+
+/*********************** main subclasses titles eg (gunslinger) */
+
+@media screen and (min-width: 1024px) {
+  .sub1 {
+    font-family: "Exo", sans-serif;
+    color: red;
+    font-size: 60px;
+    font-weight: 700;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    letter-spacing: 7px;
+    text-align: center;
+    
+  }
+}
+/*********************** super ability title  */
+
+@media screen and (min-width: 1024px) {
+  .sub-ability {
+    font-family: "Exo", sans-serif;
+    color: orange;
+    font-size: 60px;
+    font-weight: 700;
+    text-decoration: underline;
+  
+  
+  }
+}
+
+/*********************** general text control */
+
+@media screen and (min-width: 1024px) {
+  h5 {
+    font-size: 39px;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  h3 {
+    color: #D35400;
+    font-size: 40px;
+    text-decoration: underline;
+  }
+}
+
+
+@media screen and (min-width: 1024px) {
+  .toons {
+    padding: 0;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
