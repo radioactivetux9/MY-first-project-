@@ -8,7 +8,7 @@
 <p>This project was inspired by my love for this the game, destiny 2 and i wanted to make this website to show how good it is, what you can do and what you can be within the game.</p>
 
 
-  ![Screenshot of my project](assets/images/Capture.PNG)
+  ![Screenshot of my project] (/assets/images/Capture.PNG)
 
 
 ## User Experience 
